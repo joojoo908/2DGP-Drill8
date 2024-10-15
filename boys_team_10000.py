@@ -53,7 +53,7 @@ def reset_world():
     grass = Grass()
     world.append(grass)
 
-    team = [Boy() for i in range(100)]
+    team = [Boy() for i in range(1000)]
     world += team
 
 
